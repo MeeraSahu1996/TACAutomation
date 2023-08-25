@@ -1,0 +1,1391 @@
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\testhost.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\testhost.exe
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\BoDi.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Trinity\TrinitySolutions\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+D:\Trinity\TrinitySolutions\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\testhost.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\testhost.exe
+D:\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+D:\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+D:\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+D:\TAC\FinanceModule\bin\Debug\net6.0\BoDi.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+D:\TAC\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+D:\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+D:\TAC\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\testhost.exe
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\testhost.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\BoDi.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Dynamitey.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.Interfaces.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Assist.Dynamic.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+C:\Users\dasia\source\repos\TAC\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\testhost.exe
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\testhost.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\BoDi.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Dynamitey.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.Interfaces.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Assist.Dynamic.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+C:\Users\dasia\source\repos\TACAni\TAC\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\testhost.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\testhost.exe
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\BoDi.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Dynamitey.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Assist.Dynamic.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Anish14.8.23\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+D:\Anish14.8.23\TAC\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\testhost.exe
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\testhost.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\BoDi.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Dynamitey.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Assist.Dynamic.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+D:\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\AngleSharp.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Text.Json.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\WebDriverManager.dll
+D:\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\testhost.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.Dtos.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\testhost.exe
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.api.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.engine.core.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.deps.json
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.runtimeconfig.json
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TrinityAirMedical.pdb
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\AngleSharp.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\BoDi.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\DnsClient.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Dynamitey.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ExtentReports.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\FluentAssertions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Gherkin.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\nunit.framework.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\OpenDialogWindowHandler.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\RazorEngine.NetCore.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.Support.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\WebDriver.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SharpCompress.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Assist.Dynamic.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\System.Text.Json.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\WebDriverManager.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.AssemblyReference.cache
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfoInputs.cache
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.AssemblyInfo.cs
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CoreCompileInputs.cache
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.csproj.CopyComplete
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\refint\TrinityAirMedical.dll
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.pdb
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\TrinityAirMedical.genruntimeconfig.cache
+D:\Code merge\TAC-Git\TAC\FinanceModule\obj\Debug\net6.0\ref\TrinityAirMedical.dll
