@@ -76,17 +76,10 @@ namespace TrinityAirMedical.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To verify that Service Request dashboard should open after clicking on Side Navig" +
             "ation bar.")]
-        [NUnit.Framework.CategoryAttribute("ServiceRequest")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", null)]
         public void ToVerifyThatServiceRequestDashboardShouldOpenAfterClickingOnSideNavigationBar_(string email, string password, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "ServiceRequest"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -257,20 +250,13 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To Verify the Status filter by selecting different status input available in filt" +
             "er")]
-        [NUnit.Framework.CategoryAttribute("retry(3)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Cancelled", null)]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Completed", null)]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Enroute", null)]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Not Started", null)]
         public void ToVerifyTheStatusFilterBySelectingDifferentStatusInputAvailableInFilter(string email, string password, string status, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(3)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -328,17 +314,10 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To Verify the Customer filter by selecting different Customer input available in " +
             "filter and also monitoring the output for the same")]
-        [NUnit.Framework.CategoryAttribute("retry(3)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", null)]
         public void ToVerifyTheCustomerFilterBySelectingDifferentCustomerInputAvailableInFilterAndAlsoMonitoringTheOutputForTheSame(string email, string password, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(3)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -395,18 +374,11 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To verify the Trip ID filter enter the input in the search section and validate t" +
             "he filtered output")]
-        [NUnit.Framework.CategoryAttribute("retry(3)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "230705AC", null)]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "210322AN", null)]
         public void ToVerifyTheTripIDFilterEnterTheInputInTheSearchSectionAndValidateTheFilteredOutput(string email, string password, string tripID, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(3)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -525,17 +497,10 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To Verify the Origin filter by providing different input in search section of fil" +
             "ter and validate the filtered output")]
-        [NUnit.Framework.CategoryAttribute("retry(5)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Trinity Air Medical", null)]
         public void ToVerifyTheOriginFilterByProvidingDifferentInputInSearchSectionOfFilterAndValidateTheFilteredOutput(string email, string password, string origin, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(5)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -823,19 +788,12 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To Verify the Assigned Coordinator filter by providing different input in search " +
             "section of filter and validate the filtered output")]
-        [NUnit.Framework.CategoryAttribute("retry(3)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Service Account  Coordinator", null)]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Marcio  Moreno", null)]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Michael  branham", null)]
         public void ToVerifyTheAssignedCoordinatorFilterByProvidingDifferentInputInSearchSectionOfFilterAndValidateTheFilteredOutput(string email, string password, string input, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(3)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);

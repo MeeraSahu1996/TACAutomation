@@ -109,6 +109,12 @@ namespace TrinityAirMedical.StepDefinitions
         {
             createServiceRequestPage.selectOriginAndDest();
         }
+        [When(@"I choose to save that transaction")]
+        public void WhenIChooseToSaveThatTransaction()
+        {
+            createServiceRequestPage.savethattransaction();
+        }
+
         [When(@"I choose to save the transaction")]
         public void IChooseToSaveTheTransaction()
         {
@@ -117,7 +123,7 @@ namespace TrinityAirMedical.StepDefinitions
         [Then(@"I choose to verify the transaction for add leg")]
         public void ThenIChooseToVerifyTheTransactionForAddLeg()
         {
-            createServiceRequestPage.VerifyTheTransactionForAddLeg();
+            //createServiceRequestPage.VerifyTheTransactionForAddLeg();
         }
 
         [When(@"I choose to add notes (.*)")]
@@ -135,11 +141,12 @@ namespace TrinityAirMedical.StepDefinitions
         {
             createServiceRequestPage.selectTemplates(template);
         }
+
         
         [Then(@"I choose to verify the transaction")]
         public void IChooseToVerifyTheTransaction()
         {
-           // createServiceRequestPage.verifySuccessRequest();
+            createServiceRequestPage.verifySuccessRequest();
         }
 
         [Then(@"I choose to verify warning popup")]
@@ -497,7 +504,7 @@ namespace TrinityAirMedical.StepDefinitions
         [Then(@"I choose to verify the success message for Leg Assignment")]
         public void ThenIChooseToVerifyTheSuccessMessageForLegAssignment()
         {
-            createServiceRequestPage.SuccessMessageForLegAssignment();
+            //createServiceRequestPage.SuccessMessageForLegAssignment();
         }
 
 

@@ -2,7 +2,7 @@
 
 A short summary of the feature
 
-@ServiceRequest
+#@ServiceRequest
 Scenario Outline: To verify that Service Request dashboard should open after clicking on Side Navigation bar.
 	Given launch the application 
 	When enter the email <email>
@@ -60,7 +60,7 @@ Examples:
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Team            |
 
 
-	@retry(3)
+	#@retry(3)
 Scenario Outline: To Verify the Status filter by selecting different status input available in filter
 	Given launch the application
 	When enter the email <email>
@@ -81,7 +81,7 @@ Examples:
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Enroute     |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Not Started |
 
-@retry(3)
+#@retry(3)
 Scenario Outline: To Verify the Customer filter by selecting different Customer input available in filter and also monitoring the output for the same
 	Given launch the application
 	When enter the email <email>
@@ -98,7 +98,7 @@ Examples:
 	| email                                        | password   |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! |
 
-@retry(3)
+#@retry(3)
 Scenario Outline: To verify the Trip ID filter enter the input in the search section and validate the filtered output
 	Given launch the application
 	When enter the email <email>
@@ -133,7 +133,7 @@ Examples:
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | 3242342 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | UN10298 |
 
-@retry(5)
+#@retry(5)
 Scenario Outline: To Verify the Origin filter by providing different input in search section of filter and validate the filtered output
 	Given launch the application
 	When enter the email <email>
@@ -223,7 +223,7 @@ Examples:
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | T100001    |
 
 
-	@retry(3)
+	#@retry(3)
 Scenario Outline: To Verify the Assigned Coordinator filter by providing different input in search section of filter and validate the filtered output
 	When enter the email <email>
 	And enter the password <password>

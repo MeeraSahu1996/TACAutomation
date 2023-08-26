@@ -35,7 +35,8 @@ namespace TrinityAirMedical.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "CreateServiceRequest", "Login to trinity medical solutions application and do tests", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "CreateServiceRequest", "Login to trinity medical solutions application and do tests\r\n\r\n//@createServiceRe" +
+                    "quest", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,17 +76,10 @@ namespace TrinityAirMedical.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("1. Verify Create Service Request page is displayed or not")]
-        [NUnit.Framework.CategoryAttribute("createServiceRequest")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", null)]
         public void _1_VerifyCreateServiceRequestPageIsDisplayedOrNot(string email, string password, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "createServiceRequest"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -445,17 +439,10 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("07. Create new Contact by selecting one of the Add new member from list in servic" +
             "e request page")]
-        [NUnit.Framework.CategoryAttribute("retry(3)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", null)]
         public void _07_CreateNewContactBySelectingOneOfTheAddNewMemberFromListInServiceRequestPage(string email, string password, string customer, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(3)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -1953,7 +1940,6 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("15. Verifying warning message while entering Trip Info")]
-        [NUnit.Framework.CategoryAttribute("retry(3)")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Equipment", "Medical Equipment", "Immediate", "Yes", "6007748", "publicAddress", "New York", "Residential", "Private", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", null)]
         public void _15_VerifyingWarningMessageWhileEnteringTripInfo(
                     string email, 
@@ -1980,13 +1966,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string template, 
                     string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "retry(3)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -6341,7 +6321,6 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("44.(Internal-Immediate-Public) To validate the functionality of the add leg butto" +
             "n after the Service Request has been created.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Internal", "Future", "No", "6747748", "6789776", "877679", "Auto Body Repair", "privateAddress", "New York", "Residential", "Private", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", null)]
         public void _44_Internal_Immediate_PublicToValidateTheFunctionalityOfTheAddLegButtonAfterTheServiceRequestHasBeenCreated_(
                     string email, 
@@ -6376,13 +6355,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string destiLeg1, 
                     string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "Regression"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -6416,7 +6389,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("DestiLeg1", destiLeg1);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("44.(Internal-Immediate-Public) To validate the functionality of the add leg butto" +
                     "n after the Service Request has been created.", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 1486
+#line 1485
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -6426,160 +6399,160 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 1487
+#line 1486
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 1488
+#line 1487
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 1489
+#line 1488
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1490
+#line 1489
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1491
+#line 1490
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1492
+#line 1491
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1493
+#line 1492
  testRunner.And("I choose to verify home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1494
+#line 1493
  testRunner.And("I choose to Click on Service Request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1495
+#line 1494
  testRunner.And("I choose to Click on Service Request button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1496
+#line 1495
  testRunner.And(string.Format("I choose to select customer details {0}", customer), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1497
+#line 1496
  testRunner.And(string.Format("I choose to select contact details {0}", contact), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1498
+#line 1497
  testRunner.And(string.Format("I choose to select service type {0}", service), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1499
+#line 1498
  testRunner.And(string.Format("I choose to select personnel service {0}", personnelservice), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1500
+#line 1499
  testRunner.And(string.Format("I choose to select pickup type {0}", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1501
+#line 1500
  testRunner.And("I choose to select pickup time", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1502
+#line 1501
  testRunner.And(string.Format("I choose to select priority type {0}", priority), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1503
+#line 1502
  testRunner.And(string.Format("I choose to enter unosid {0}", unos), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1504
+#line 1503
  testRunner.And(string.Format("I choose to enter tissueid {0}", tissue), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1505
+#line 1504
  testRunner.And(string.Format("I choose to enter matchid {0}", match), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1506
+#line 1505
  testRunner.And(string.Format("I choose to select trip origin transport mode {0}", mode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1507
+#line 1506
  testRunner.And("I choose to create location click and verify", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1508
+#line 1507
  testRunner.And(string.Format("I choose to select location name {0}", locationname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1508
+ testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1509
- testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1510
- testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1511
  testRunner.And(string.Format("I choose to enter street address {0}", street), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1512
+#line 1511
  testRunner.And(string.Format("I choose to enter zipcode {0}", zipcode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1512
+ testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1513
- testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1514
- testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1515
- testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1516
  testRunner.And(string.Format("I choose to select trip destinatio transport mode {0}", destmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1517
+#line 1516
  testRunner.And("I choose to create destination location click and verify", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1518
+#line 1517
  testRunner.And(string.Format("I choose to select location name {0}", locationname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1519
+#line 1518
  testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1520
+#line 1519
  testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1521
+#line 1520
  testRunner.And(string.Format("I choose to enter destination street address {0}", street), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1522
+#line 1521
  testRunner.And(string.Format("I choose to enter zipcode {0}", zipcode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1523
+#line 1522
  testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1524
+#line 1523
  testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1525
+#line 1524
  testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1526
+#line 1525
  testRunner.And(string.Format("I choose to select category {0}", category), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1527
+#line 1526
  testRunner.And(string.Format("I choose to enter instruction {0}", instruction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1528
+#line 1527
  testRunner.And("I choose to save the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1529
+#line 1528
  testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1530
+#line 1529
  testRunner.And(string.Format("I choose to Select Coordinator {0}", coordinator), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1531
+#line 1530
  testRunner.Then("I choose to verify the success message for Assign Coordinator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1532
+#line 1531
  testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1533
+#line 1532
  testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1534
+#line 1533
  testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1535
+#line 1534
  testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1536
+#line 1535
  testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1537
+#line 1536
  testRunner.And("I choose to Click on Add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1538
+#line 1537
  testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -6589,7 +6562,6 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("45.(Internal-Immediate-Public) To validate the functionality of the add leg butto" +
             "n after the Service Request has been created.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Internal", "Future", "No", "6747748", "6789776", "877679", "Auto Body Repair", "privateAddress", "New York", "Residential", "Private", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _45_Internal_Immediate_PublicToValidateTheFunctionalityOfTheAddLegButtonAfterTheServiceRequestHasBeenCreated_(
                     string email, 
@@ -6625,13 +6597,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string destiLeg2, 
                     string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "Regression"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -6666,7 +6632,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("DestiLeg2", destiLeg2);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("45.(Internal-Immediate-Public) To validate the functionality of the add leg butto" +
                     "n after the Service Request has been created.", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 1543
+#line 1542
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -6676,181 +6642,181 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 1544
+#line 1543
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 1545
+#line 1544
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 1546
+#line 1545
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1547
+#line 1546
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1548
+#line 1547
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1549
+#line 1548
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1550
+#line 1549
  testRunner.And("I choose to verify home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1551
+#line 1550
  testRunner.And("I choose to Click on Service Request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1552
+#line 1551
  testRunner.And("I choose to Click on Service Request button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1553
+#line 1552
  testRunner.And(string.Format("I choose to select customer details {0}", customer), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1554
+#line 1553
  testRunner.And(string.Format("I choose to select contact details {0}", contact), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1555
+#line 1554
  testRunner.And(string.Format("I choose to select service type {0}", service), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1556
+#line 1555
  testRunner.And(string.Format("I choose to select personnel service {0}", personnelservice), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1557
+#line 1556
  testRunner.And(string.Format("I choose to select pickup type {0}", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1558
+#line 1557
  testRunner.And("I choose to select pickup time", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1559
+#line 1558
  testRunner.And(string.Format("I choose to select priority type {0}", priority), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1560
+#line 1559
  testRunner.And(string.Format("I choose to enter unosid {0}", unos), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1561
+#line 1560
  testRunner.And(string.Format("I choose to enter tissueid {0}", tissue), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1562
+#line 1561
  testRunner.And(string.Format("I choose to enter matchid {0}", match), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1563
+#line 1562
  testRunner.And(string.Format("I choose to select trip origin transport mode {0}", mode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1564
+#line 1563
  testRunner.And("I choose to create location click and verify", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1565
+#line 1564
  testRunner.And(string.Format("I choose to select location name {0}", locationname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1565
+ testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1566
- testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1567
- testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1568
  testRunner.And(string.Format("I choose to enter street address {0}", street), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1569
+#line 1568
  testRunner.And(string.Format("I choose to enter zipcode {0}", zipcode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1569
+ testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1570
- testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1571
- testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1572
- testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1573
  testRunner.And(string.Format("I choose to select trip destinatio transport mode {0}", destmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1574
+#line 1573
  testRunner.And("I choose to create destination location click and verify", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1575
+#line 1574
  testRunner.And(string.Format("I choose to select location name {0}", locationname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1576
+#line 1575
  testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1577
+#line 1576
  testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1578
+#line 1577
  testRunner.And(string.Format("I choose to enter destination street address {0}", street), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1579
+#line 1578
  testRunner.And(string.Format("I choose to enter zipcode {0}", zipcode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1580
+#line 1579
  testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1581
+#line 1580
  testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1582
+#line 1581
  testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1583
+#line 1582
  testRunner.And(string.Format("I choose to select category {0}", category), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1584
+#line 1583
  testRunner.And(string.Format("I choose to enter instruction {0}", instruction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1585
+#line 1584
  testRunner.And("I choose to save the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1586
+#line 1585
  testRunner.Then("I choose to verify the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1587
+#line 1586
  testRunner.And(string.Format("I choose to Select Coordinator {0}", coordinator), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1588
+#line 1587
  testRunner.Then("I choose to verify the success message for Assign Coordinator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1589
+#line 1588
  testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1589
+ testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1590
- testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1591
- testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1592
- testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1593
  testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1594
+#line 1593
  testRunner.And("I choose to Click on Add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1595
+#line 1594
  testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1596
+#line 1595
  testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1597
+#line 1596
  testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1598
+#line 1597
  testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1599
+#line 1598
  testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1600
+#line 1599
  testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1601
+#line 1600
  testRunner.And("I choose to Click on Add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1602
+#line 1601
  testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -6861,7 +6827,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("46.(400error)(Specimen-Multiple)After the Service Request has been created, valid" +
             "ate the functionality of adding multiple legs and then assign the legs to the in" +
             "ternal driver.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
+        [NUnit.Framework.CategoryAttribute("CreateSRflow")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Specimen", "Immediate", "Yes", "6712998", "8798900", "67188293", "Blood Sample", "Multiple", "In town", "publicAddress", "New York", "Residential", "Public", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "public", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _46_400ErrorSpecimen_MultipleAfterTheServiceRequestHasBeenCreatedValidateTheFunctionalityOfAddingMultipleLegsAndThenAssignTheLegsToTheInternalDriver_(
                     string email, 
@@ -6901,7 +6867,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Regression"};
+                    "CreateSRflow"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -6945,7 +6911,7 @@ this.ScenarioInitialize(scenarioInfo);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("46.(400error)(Specimen-Multiple)After the Service Request has been created, valid" +
                     "ate the functionality of adding multiple legs and then assign the legs to the in" +
                     "ternal driver.", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 1609
+#line 1607
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -6955,158 +6921,164 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 1610
+#line 1608
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 1611
+#line 1609
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 1612
+#line 1610
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1613
+#line 1611
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1614
+#line 1612
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1615
+#line 1613
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1616
+#line 1614
  testRunner.And("I choose to verify home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1617
+#line 1615
  testRunner.And("I choose to Click on Service Request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1618
+#line 1616
  testRunner.And("I choose to Click on Service Request button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1619
+#line 1617
  testRunner.And(string.Format("I choose to select customer details {0}", customer), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1620
+#line 1618
  testRunner.And(string.Format("I choose to select contact details {0}", contact), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1621
+#line 1619
  testRunner.And(string.Format("I choose to select service type {0}", service), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1622
+#line 1620
  testRunner.And(string.Format("I choose to select specimen type {0}", specimenType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1623
+#line 1621
  testRunner.And(string.Format("I choose to select drop location {0}", droplocation), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1624
+#line 1622
  testRunner.And(string.Format("I choose to select drop category {0}", dropcategory), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1625
+#line 1623
  testRunner.And(string.Format("I choose to select pickup type {0}", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1626
+#line 1624
  testRunner.And(string.Format("I choose to select priority type {0}", priority), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1627
+#line 1625
  testRunner.And(string.Format("I choose to enter unosid {0}", unos), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1628
+#line 1626
  testRunner.And(string.Format("I choose to enter tissueid {0}", tissue), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1629
+#line 1627
  testRunner.And(string.Format("I choose to enter matchid {0}", match), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1630
+#line 1628
  testRunner.And(string.Format("I choose to select trip origin transport mode {0}", mode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1631
+#line 1629
  testRunner.And("I choose to create location click and verify", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1632
+#line 1630
  testRunner.And(string.Format("I choose to select location name {0}", locationname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1633
+#line 1631
  testRunner.And(string.Format("I choose to select address type {0}", addresstype), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1634
+#line 1632
  testRunner.And(string.Format("I choose to select address mode {0}", addressmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1635
+#line 1633
  testRunner.And(string.Format("I choose to enter street address {0}", street), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1636
+#line 1634
  testRunner.And(string.Format("I choose to enter zipcode {0}", zipcode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1637
+#line 1635
  testRunner.And(string.Format("I choose to select state {0}", state), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1638
+#line 1636
  testRunner.And(string.Format("I choose to select city {0}", city), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1639
+#line 1637
  testRunner.And("I choose to save the location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1640
+#line 1638
  testRunner.And(string.Format("I choose to select trip destinatio transport mode {0}", destmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1641
+#line 1639
  testRunner.And(string.Format("I choose to select category {0}", category), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1642
+#line 1640
  testRunner.And(string.Format("I choose to enter instruction {0}", instruction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1643
+#line 1641
  testRunner.And(string.Format("I choose to select destinations mode {0}", destinationsmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1644
- testRunner.And("I choose to save the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 1642
+ testRunner.And("I choose to save that transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1645
+#line 1643
  testRunner.Then("I choose to verify the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1646
+#line 1644
  testRunner.And(string.Format("I choose to Select Coordinator {0}", coordinator), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1647
+#line 1645
  testRunner.Then("I choose to verify the success message for Assign Coordinator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1648
+#line 1646
  testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1647
+ testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 1648
+ testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1649
- testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 1650
- testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1651
- testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 1652
  testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1653
+#line 1651
  testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1654
+#line 1652
  testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 1655
+#line 1653
  testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1656
+#line 1654
  testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1657
+#line 1655
  testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1658
+#line 1656
  testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1659
+#line 1657
  testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 1660
+#line 1658
  testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 1659
+ testRunner.Then("I choose to select the legs and Assign to Internal Driver", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 1660
+ testRunner.Then("I choose to verify the success message for Leg Assignment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -7116,7 +7088,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("47.\t(Equipment-Immediate-Public)After the Service Request has been created, valid" +
             "ate the functionality of adding multiple legs and then assign the legs to the in" +
             "ternal driver.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
+        [NUnit.Framework.CategoryAttribute("CreateSRflow")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Equipment", "Medical Equipment", "Immediate", "Yes", "6007748", "79898978", "7886089", "publicAddress", "Residential", "public", "publicAddress", "Aircraft", "NA", "Idaho Regional Medical Center", "St Lukes Boise", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _47_Equipment_Immediate_PublicAfterTheServiceRequestHasBeenCreatedValidateTheFunctionalityOfAddingMultipleLegsAndThenAssignTheLegsToTheInternalDriver_(
                     string email, 
@@ -7148,7 +7120,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Regression"};
+                    "CreateSRflow"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -7334,7 +7306,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("48.(Internal-Immediate-Public)After the Service Request has been created, validat" +
             "e the functionality of adding multiple legs and then assign the legs to the inte" +
             "rnal driver.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
+        [NUnit.Framework.CategoryAttribute("CreateSRflow")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Internal", "Future", "No", "6747748", "6789776", "877679", "Auto Body Repair", "privateAddress", "New York", "Residential", "Private", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _48_Internal_Immediate_PublicAfterTheServiceRequestHasBeenCreatedValidateTheFunctionalityOfAddingMultipleLegsAndThenAssignTheLegsToTheInternalDriver_(
                     string email, 
@@ -7371,7 +7343,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Regression"};
+                    "CreateSRflow"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -7613,7 +7585,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("49.(Next Flight Out-Immediate-Airport)After the Service Request has been created," +
             " validate the functionality of adding multiple legs and then assign the legs to " +
             "the internal driver.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
+        [NUnit.Framework.CategoryAttribute("CreateSRflow")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Next Flight Out", "Immediate", "Yes", "6712748", "76289752", "764579", "674889894", "646822", "Blood Sample", "airportAddress", "New York", "Residential", "Airport", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _49_NextFlightOut_Immediate_AirportAfterTheServiceRequestHasBeenCreatedValidateTheFunctionalityOfAddingMultipleLegsAndThenAssignTheLegsToTheInternalDriver_(
                     string email, 
@@ -7652,7 +7624,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Regression"};
+                    "CreateSRflow"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -7907,7 +7879,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("50. (Organ) After the Service Request has been created, validate the functionalit" +
             "y of adding multiple legs and then assign the legs to the internal driver.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
+        [NUnit.Framework.CategoryAttribute("CreateSRflow")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Organ", "Immediate", "Yes", "6712998", "746619", "378192", "Kidney Left", "Yes", "publicAddress", "New York", "Residential", "Private", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _50_OrganAfterTheServiceRequestHasBeenCreatedValidateTheFunctionalityOfAddingMultipleLegsAndThenAssignTheLegsToTheInternalDriver_(
                     string email, 
@@ -7945,7 +7917,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Regression"};
+                    "CreateSRflow"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -8186,7 +8158,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("51. (Team) After the Service Request has been created, validate the functionality" +
             " of adding multiple legs and then assign the legs to the internal driver.")]
-        [NUnit.Framework.CategoryAttribute("Regression")]
+        [NUnit.Framework.CategoryAttribute("CreateSRflow")]
         [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Team", "Heart", "Immediate", "Yes", "6007748", "Yes", "8723859", "871982193", "publicAddress", "New York", "Residential", "Private", "6N5", "French", "6773800", "New York", "New York", "privateAddress", "Aircraft", "NA", "New York", "Yes", "Additional Bags", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
         public void _51_TeamAfterTheServiceRequestHasBeenCreatedValidateTheFunctionalityOfAddingMultipleLegsAndThenAssignTheLegsToTheInternalDriver_(
                     string email, 
@@ -8226,7 +8198,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Regression"};
+                    "CreateSRflow"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
