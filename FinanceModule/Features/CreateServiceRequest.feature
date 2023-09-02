@@ -2,7 +2,7 @@
 
 Login to trinity medical solutions application and do tests
 
-@createServiceRequest
+//@createServiceRequest
 Scenario Outline: 1. Verify Create Service Request page is displayed or not
 	Given launch the application
 	When I choose to enter the email <email>
@@ -99,7 +99,7 @@ Examples:
 	| email                                        | password   | customer      | firstName | lastName | phoneNumber |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish     | Dasi     | 9700082455  |
 
-@retry(3)
+#@retry(3)
 Scenario Outline:07. Create new Contact by selecting one of the Add new member from list in service request page
 	Given launch the application
 	When I choose to enter the email <email>
@@ -451,7 +451,7 @@ Examples:
 	| email                                        | password   | customer      | contact    | service | team  | type      | priority | unos    | sirens | tissue  | match     | mode          | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template | addequipment | addequiptype    |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Team    | Heart | Immediate | Yes      | 6007748 | Yes    | 8723859 | 871982193 | publicAddress | New York     | Residential | Private     | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York | Yes          | Additional Bags |
 
-@retry(3)
+#@retry(3)
 Scenario Outline:15. Verifying warning message while entering Trip Info
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1482,7 +1482,6 @@ Examples:
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Equipment | Medical Equipment | Immediate | Yes      | 6007748 | 79898978 | 7886089 | publicAddress | Residential | public      | publicAddress | Aircraft | NA          | Idaho Regional Medical Center | St Lukes Boise | service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport  |
 
 
-@Regression
 Scenario Outline: 44.(Internal-Immediate-Public) To validate the functionality of the add leg button after the Service Request has been created.
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1539,7 +1538,7 @@ Scenario Outline: 44.(Internal-Immediate-Public) To validate the functionality o
 Examples: 
 	| email                                        | password   | customer      | contact    | service  | type   | priority | unos    | tissue  | match  | personnelservice | mode          | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template | coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                     |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Internal | Future | No       | 6747748 | 6789776 | 877679 | Auto Body Repair | privateAddress | New York     | Residential | Private     | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York |service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport  |
-	@Regression
+#@CreateSRflow
 Scenario Outline: 45.(Internal-Immediate-Public) To validate the functionality of the add leg button after the Service Request has been created.
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1604,8 +1603,7 @@ Examples:
 	| email                                        | password   | customer      | contact    | service  | type   | priority | unos    | tissue  | match  | personnelservice | mode           | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template | coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Internal | Future | No       | 6747748 | 6789776 | 877679 | Auto Body Repair | privateAddress | New York     | Residential | Private     | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York | service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
 
-	@Regression
-
+@CreateSRflow
 	Scenario Outline: 46.(400error)(Specimen-Multiple)After the Service Request has been created, validate the functionality of adding multiple legs and then assign the legs to the internal driver.
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1641,7 +1639,7 @@ Examples:
 	And I choose to select category <category>
 	And I choose to enter instruction <instruction>
 	And I choose to select destinations mode <destinationsmode>
-	And I choose to save the transaction
+	And I choose to save that transaction
 	Then I choose to verify the transaction
 	And I choose to Select Coordinator <coordinator>
 	Then I choose to verify the success message for Assign Coordinator 
@@ -1658,12 +1656,14 @@ Examples:
 	And I choose to Enter Desti location <DestiLeg2>
 	And I choose to Click on Add leg 
 	Then I choose to verify the transaction for add leg
+	Then I choose to select the legs and Assign to Internal Driver
+	Then I choose to verify the success message for Leg Assignment 
 
 Examples: 
 	| email                                        | password   | customer      | contact    | service  | type      | priority | unos    | tissue  | match    | specimenType | droplocation | dropcategory | mode          | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template | destinationsmode | coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Specimen | Immediate | Yes      | 6712998 | 8798900 | 67188293 | Blood Sample | Multiple     | In town      | publicAddress | New York     | Residential | Public      | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York | public           | service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
 
-@Regression 
+@CreateSRflow
 Scenario Outline: 47.	(Equipment-Immediate-Public)After the Service Request has been created, validate the functionality of adding multiple legs and then assign the legs to the internal driver.
 	Given launch the application 
 	When I choose to enter the email <email>
@@ -1715,7 +1715,7 @@ Examples:
 	| email                                        | password   | customer      | contact    | service   | equipment         | type      | priority | unos    | tissue   | match   | mode          | addresstype | addressmode | destmode      | category | instruction | Origin                        | Desti          | coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Equipment | Medical Equipment | Immediate | Yes      | 6007748 | 79898978 | 7886089 | publicAddress | Residential | public      | publicAddress | Aircraft | NA          | Idaho Regional Medical Center | St Lukes Boise | service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
 
-	@Regression 
+@CreateSRflow
 	Scenario Outline: 48.(Internal-Immediate-Public)After the Service Request has been created, validate the functionality of adding multiple legs and then assign the legs to the internal driver.
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1783,7 +1783,7 @@ Examples:
 	| email                                        | password   | customer      | contact    | service  | type   | priority | unos    | tissue  | match  | personnelservice | mode           | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template | coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Internal | Future | No       | 6747748 | 6789776 | 877679 | Auto Body Repair | privateAddress | New York     | Residential | Private     | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York | service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
 
-	@Regression 
+@CreateSRflow
 	Scenario Outline: 49.(Next Flight Out-Immediate-Airport)After the Service Request has been created, validate the functionality of adding multiple legs and then assign the legs to the internal driver.
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1855,7 +1855,7 @@ Examples:
 	| email                                        | password   | customer      | contact    | service         | type      | priority | unos    | tissue   | medigo | jobid     | trackingid | nextflight   | mode          | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template |coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Next Flight Out | Immediate | Yes      | 6712748 | 76289752 | 764579 | 674889894 | 646822     | Blood Sample | airportAddress | New York     | Residential | Airport     | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York |service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
 
-	@Regression 
+@CreateSRflow
 Scenario Outline:50. (Organ) After the Service Request has been created, validate the functionality of adding multiple legs and then assign the legs to the internal driver.
 	Given launch the application
 	When I choose to enter the email <email>
@@ -1922,7 +1922,7 @@ Scenario Outline:50. (Organ) After the Service Request has been created, validat
 Examples: 
 	| email                                        | password   | customer      | contact    | service | type      | priority | unos    | tissue | match  | organType   | sirens | mode          | locationname | addresstype | addressmode | code | street | zipcode | state    | city     | destmode       | category | instruction | template |coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
 	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Organ   | Immediate | Yes      | 6712998 | 746619 | 378192 | Kidney Left | Yes    | publicAddress | New York     | Residential | Private     | 6N5  | French | 6773800 | New York | New York | privateAddress | Aircraft | NA          | New York |service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
-@Regression 
+@CreateSRflow
 Scenario Outline:51. (Team) After the Service Request has been created, validate the functionality of adding multiple legs and then assign the legs to the internal driver.
 	Given launch the application
 	When I choose to enter the email <email>

@@ -326,6 +326,7 @@ namespace TrinityAirMedical.Pages
         }
         public void selectEquipmentType(String equipment)
         {
+            Thread.Sleep(2000);
             WaitHelper.CHighlightElement(driver, selectEquipment);
             driver.FindElement(selectEquipment).Click();
             WaitHelper.CHighlightElement(driver, searchText);
@@ -357,6 +358,7 @@ namespace TrinityAirMedical.Pages
        
         public void selectTeam(String team)
         {
+            Thread.Sleep(5000);
             WaitHelper.CHighlightElement(driver, selectNextFlight);
             driver.FindElement(selectNextFlight).Click();
             WaitHelper.CHighlightElement(driver, search);
@@ -400,7 +402,7 @@ namespace TrinityAirMedical.Pages
         {
             WaitHelper.CHighlightElement(driver, specimen);
             driver.FindElement(specimen).Click();
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             IWebElement option = driver.FindElement(By.XPath("//option[@value='"+specimenType+"']"));
             option.Click();
         }
@@ -657,8 +659,16 @@ namespace TrinityAirMedical.Pages
             WaitHelper.cScrollIntoViewUsingJavaScriptExecutor(driver, saveTransaction);
             driver.FindElement(saveTransaction).Click();
         }
-        
+        public void savethattransaction()
+        {
+            Thread.Sleep(5000);
+            WaitHelper.cWaitForLoader(driver,60);
+            WaitHelper.cScrollIntoViewUsingJavaScriptExecutor(driver, saveTransaction);
+            WaitHelper.cExplicitlyWaitForElementToBeClickable(driver,saveTransaction,70);
+            driver.FindElement(saveTransaction).Click();
+            WaitHelper.cWaitForLoader(driver, 0);
 
+        }
         public void savetransactionWithTempOpt()
         {
             Thread.Sleep(5000);
@@ -851,6 +861,7 @@ namespace TrinityAirMedical.Pages
         {
 
             By wAddressType = By.XPath("//span[contains(text(),'Select Destination')]");
+            WaitHelper.cExplicitWaitForElementIsVisible(driver, wAddressType, 60);
             driver.FindElement(wAddressType).Click();
             driver.FindElement(wSearchField).SendKeys(DestiLocation);
             Thread.Sleep(1500);

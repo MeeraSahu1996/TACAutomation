@@ -2,10 +2,18 @@
 
 Login to the trinity medical solutions application and do tests
 
+<<<<<<< HEAD
 @financeModule
 @retry(3)
 Scenario Outline: 01.Create service request flow for Finance Module
 	Given launch the application 
+=======
+//@financeModule
+
+
+Scenario Outline: Create service request flow for Finance Module
+	Given launch the application
+>>>>>>> b11255d53108dfc9e27b4988269fe5bec67c27c4
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
 	And I choose to click on submit button
@@ -162,8 +170,13 @@ Scenario Outline: 05.login and launch manage customer tab and verify total numbe
 	| email                                      | password   | searchKey     |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer |
 
+<<<<<<< HEAD
 	@Priority(0)
 	Scenario Outline: 09.Add Rate settings
+=======
+#	@Priority(0)
+	Scenario Outline: Add Rate settings
+>>>>>>> b11255d53108dfc9e27b4988269fe5bec67c27c4
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -350,7 +363,7 @@ Scenario Outline: 05.login and launch manage customer tab and verify total numbe
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | UNS1001 | PO1001 | Regular | Internal |
 
 
-	@Retry(5)
+	#@Retry(5)
 	Scenario Outline: Generate Invoice and Add File
 	Given launch the application
 	When I choose to enter the email <email>
@@ -370,7 +383,7 @@ Scenario Outline: 05.login and launch manage customer tab and verify total numbe
 	| email                                      | password   | filename											   |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | C:\\Users\\ASUS\\Pictures\\Screenshots\\Screenshot.png |
 
-	@Retry(5)
+	#@Retry(5)
 	Scenario Outline: Generate Invoice and Delete File
 	Given launch the application
 	When I choose to enter the email <email>

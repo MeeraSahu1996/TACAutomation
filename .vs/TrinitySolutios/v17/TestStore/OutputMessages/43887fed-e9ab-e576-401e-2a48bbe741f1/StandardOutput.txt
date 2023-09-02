@@ -1,0 +1,145 @@
+Given launch the application
+-> done: CreateServiceRequestStepDefinitions.GivenLaunchTheApplication() (0.0s)
+Running after step....
+When I choose to enter the email TACExAdministratorTest@trinityairmedical.com
+-> done: FinanceAutomationStepDefinitions.WhenIChooseToEnterTheEmail("TACExAdministrato...") (1.2s)
+Running after step....
+And I choose to enter the password YQAQ7&*fy!
+-> done: FinanceAutomationStepDefinitions.WhenIChooseToEnterThePassword(" YQAQ7&*fy!") (1.2s)
+Running after step....
+And I choose to click on submit button
+-> done: FinanceAutomationStepDefinitions.WhenIChooseToClickOnSubmitButton() (3.8s)
+Running after step....
+And I choose to enter email TACExAdministratorTest@trinityairmedical.com
+-> done: FinanceAutomationStepDefinitions.WhenIChooseToEnterEmail("TACExAdministrato...") (4.4s)
+Running after step....
+And I choose to enter password YQAQ7&*fy!
+-> done: FinanceAutomationStepDefinitions.WhenIChooseToEnterPassword("YQAQ7&*fy!") (47.0s)
+Running after step....
+And I choose to verify home page
+-> done: FinanceAutomationStepDefinitions.WhenIChooseToVerifyHomePage() (4.1s)
+Running after step....
+And I choose to Click on Service Request
+-> done: CreateServiceRequestStepDefinitions.IChooseToClickOnServiceRequest() (0.6s)
+Running after step....
+And I choose to Click on Service Request button
+-> done: CreateServiceRequestStepDefinitions.IChooseToClickOnServiceRequestButton() (16.7s)
+Running after step....
+And I choose to select customer details Test_Customer
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectCustomerDetails("Test_Customer") (0.5s)
+Running after step....
+And I choose to select contact details Anish Dasi
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectContactDetails("Anish Dasi") (5.4s)
+Running after step....
+And I choose to select service type Specimen
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectServiceType("Specimen") (4.3s)
+Running after step....
+And I choose to select specimen type Blood Sample
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectSpecimenType("Blood Sample") (5.5s)
+Running after step....
+And I choose to select drop location Multiple
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectDropLocation("Multiple") (0.3s)
+Running after step....
+And I choose to select drop category In town
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectDropCategory("In town") (0.1s)
+Running after step....
+And I choose to select pickup type Immediate
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectPickupType("Immediate") (0.1s)
+Running after step....
+And I choose to select priority type Yes
+-> done: CreateServiceRequestStepDefinitions.IChooseToSelectPriorityType("Yes") (3.1s)
+Running after step....
+And I choose to enter unosid 6712998
+-> done: CreateServiceRequestStepDefinitions.IChooseToEnterUnosId("6712998") (0.2s)
+Running after step....
+And I choose to enter tissueid 8798900
+-> done: CreateServiceRequestStepDefinitions.IChooseToEnterTissueId("8798900") (0.2s)
+Running after step....
+And I choose to enter matchid 67188293
+-> done: CreateServiceRequestStepDefinitions.IChooseToEnterMatchId("67188293") (0.2s)
+Running after step....
+And I choose to select trip origin transport mode publicAddress
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectTripOriginTransportMode("publicAddress") (0.1s)
+Running after step....
+And I choose to create location click and verify
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToCreateLocationClickAndVerify() (5.3s)
+Running after step....
+And I choose to select location name New York
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectLocationName("New York") (0.2s)
+Running after step....
+And I choose to select address type Residential
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectAddressType("Residential") (0.2s)
+Running after step....
+And I choose to select address mode Public
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectAddressMode("Public") (0.1s)
+Running after step....
+And I choose to enter street address French
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToEnterStreetAddress("French") (0.2s)
+Running after step....
+And I choose to enter zipcode 6773800
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToEnterZipcode("6773800") (0.2s)
+Running after step....
+And I choose to select state New York
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectState("New York") (0.2s)
+Running after step....
+And I choose to select city New York
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectCity("New York") (2.3s)
+Running after step....
+And I choose to save the location
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSaveTheLocation() (8.4s)
+Running after step....
+And I choose to select trip destinatio transport mode privateAddress
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectTripDestinatioTransportMode("privateAddress") (0.1s)
+Running after step....
+And I choose to select category Aircraft
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSelectCategory("Aircraft") (0.1s)
+Running after step....
+And I choose to enter instruction NA
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToEnterInstruction("NA") (0.1s)
+Running after step....
+And I choose to select destinations mode public
+-> done: CreateServiceRequestStepDefinitions.WhenTChooseToSelectDestinationsMode("public") (1.3s)
+Running after step....
+And I choose to save that transaction
+-> done: CreateServiceRequestStepDefinitions.WhenIChooseToSaveThatTransaction() (19.7s)
+Running after step....
+Then I choose to verify the transaction
+-> error:   Success toastTitle is not displayed
+  Expected: True
+  But was:  False
+ (0.6s)
+Running after step....
+And I choose to Select Coordinator service account
+-> skipped because of previous errors
+Then I choose to verify the success message for Assign Coordinator
+-> skipped because of previous errors
+And I choose to Click on Add leg
+-> skipped because of previous errors
+And I choose to Select Transport Type Ground
+-> skipped because of previous errors
+And I choose to Select Direction Outbound
+-> skipped because of previous errors
+And I choose to select Destination Address typePublic
+-> skipped because of previous errors
+And I choose to Enter Desti location Idaho Falls Regional Airport
+-> skipped because of previous errors
+And I choose to Click on Add leg
+-> skipped because of previous errors
+Then I choose to verify the transaction for add leg
+-> skipped because of previous errors
+And I choose to Select Transport Type Ground
+-> skipped because of previous errors
+And I choose to Select Direction Outbound
+-> skipped because of previous errors
+And I choose to select Destination Address typePublic
+-> skipped because of previous errors
+And I choose to Enter Desti location Trinity
+-> skipped because of previous errors
+And I choose to Click on Add leg
+-> skipped because of previous errors
+Then I choose to verify the transaction for add leg
+-> skipped because of previous errors
+Then I choose to select the legs and Assign to Internal Driver
+-> skipped because of previous errors
+Then I choose to verify the success message for Leg Assignment
+-> skipped because of previous errors

@@ -1,0 +1,130 @@
+Given launch the application
+-> skipped because of previous errors
+When I choose to enter the email TACExAdministratorTest@trinityairmedical.com
+-> skipped because of previous errors
+And I choose to enter the password YQAQ7&*fy!
+-> skipped because of previous errors
+And I choose to click on submit button
+-> skipped because of previous errors
+And I choose to enter email TACExAdministratorTest@trinityairmedical.com
+-> skipped because of previous errors
+And I choose to enter password YQAQ7&*fy!
+-> skipped because of previous errors
+And I choose to verify home page
+-> skipped because of previous errors
+And I choose to Click on Service Request
+-> skipped because of previous errors
+And I choose to Click on Service Request button
+-> skipped because of previous errors
+And I choose to select customer details Test_Customer
+-> skipped because of previous errors
+And I choose to select contact details Anish Dasi
+-> skipped because of previous errors
+And I choose to select service type Next Flight Out
+-> skipped because of previous errors
+And I choose to select next flight Blood Sample
+-> skipped because of previous errors
+And I choose to select pickup type Immediate
+-> skipped because of previous errors
+And I choose to select priority type Yes
+-> skipped because of previous errors
+And I choose to enter unosid 6712748
+-> skipped because of previous errors
+And I choose to enter tissueid 76289752
+-> skipped because of previous errors
+And I choose to enter medigo 764579
+-> skipped because of previous errors
+And I choose to enter jobid 674889894
+-> skipped because of previous errors
+And I choose to enter trackingid 646822
+-> skipped because of previous errors
+And I choose to select trip origin transport mode airportAddress
+-> skipped because of previous errors
+And I choose to select tripinfo airport code 6N5
+-> skipped because of previous errors
+And I choose to create location click and verify
+-> skipped because of previous errors
+And I choose to select location name New York
+-> skipped because of previous errors
+And I choose to select address type Residential
+-> skipped because of previous errors
+And I choose to select address mode Airport
+-> skipped because of previous errors
+And I choose to select airport code 6N5
+-> skipped because of previous errors
+And I choose to enter street address French
+-> skipped because of previous errors
+And I choose to enter zipcode 6773800
+-> skipped because of previous errors
+And I choose to select state New York
+-> skipped because of previous errors
+And I choose to select city New York
+-> skipped because of previous errors
+And I choose to save the location
+-> skipped because of previous errors
+And I choose to select trip destinatio transport mode privateAddress
+-> skipped because of previous errors
+And I choose to create destination location click and verify
+-> skipped because of previous errors
+And I choose to select location name New York
+-> skipped because of previous errors
+And I choose to select address type Residential
+-> skipped because of previous errors
+And I choose to select address mode Airport
+-> skipped because of previous errors
+And I choose to select airport code 6N5
+-> skipped because of previous errors
+And I choose to enter destination street address French
+-> skipped because of previous errors
+And I choose to enter zipcode 6773800
+-> skipped because of previous errors
+And I choose to select state New York
+-> skipped because of previous errors
+And I choose to select city New York
+-> skipped because of previous errors
+And I choose to save the location
+-> skipped because of previous errors
+And I choose to select category Aircraft
+-> skipped because of previous errors
+And I choose to enter instruction NA
+-> skipped because of previous errors
+And I choose to save the transaction
+-> skipped because of previous errors
+Then I choose to verify the transaction
+-> skipped because of previous errors
+And I choose to Select Coordinator service account
+-> skipped because of previous errors
+Then I choose to verify the success message for Assign Coordinator
+-> skipped because of previous errors
+And I choose to Click on Add leg
+-> skipped because of previous errors
+And I choose to Select Transport Type Ground
+-> skipped because of previous errors
+And I choose to Select Direction Outbound
+-> skipped because of previous errors
+And I choose to select Destination Address typePublic
+-> skipped because of previous errors
+And I choose to Enter Desti location Idaho Falls Regional Airport
+-> skipped because of previous errors
+And I choose to Click on Add button
+-> skipped because of previous errors
+Then I choose to verify the transaction for add leg
+-> skipped because of previous errors
+And I choose to Click on Add leg
+-> skipped because of previous errors
+And I choose to Select Transport Type Ground
+-> skipped because of previous errors
+And I choose to Select Direction Outbound
+-> skipped because of previous errors
+And I choose to select Destination Address typePublic
+-> skipped because of previous errors
+And I choose to Enter Desti location Trinity
+-> skipped because of previous errors
+And I choose to Click on Add button
+-> skipped because of previous errors
+Then I choose to verify the transaction for add leg
+-> skipped because of previous errors
+Then I choose to select the legs and Assign to Internal Driver
+-> skipped because of previous errors
+Then I choose to verify the success message for Leg Assignment
+-> skipped because of previous errors

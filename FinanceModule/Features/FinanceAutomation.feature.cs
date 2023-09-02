@@ -35,7 +35,8 @@ namespace TrinityAirMedical.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Finance Module feature", "Login to the trinity medical solutions application and do tests", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Finance Module feature", "Login to the trinity medical solutions application and do tests\r\n\r\n//@financeModu" +
+                    "le", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -74,6 +75,7 @@ namespace TrinityAirMedical.Features
         }
         
         [NUnit.Framework.TestAttribute()]
+<<<<<<< HEAD
         [NUnit.Framework.DescriptionAttribute("01.Create service request flow for Finance Module")]
         [NUnit.Framework.CategoryAttribute("financeModule")]
         [NUnit.Framework.CategoryAttribute("retry(3)")]
@@ -115,6 +117,13 @@ namespace TrinityAirMedical.Features
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             string[] tagsOfScenario = @__tags;
+=======
+        [NUnit.Framework.DescriptionAttribute("Create service request flow for Finance Module")]
+        [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", null)]
+        public void CreateServiceRequestFlowForFinanceModule(string email, string password, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+>>>>>>> b11255d53108dfc9e27b4988269fe5bec67c27c4
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -675,10 +684,16 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
+<<<<<<< HEAD
         [NUnit.Framework.DescriptionAttribute("09.Add Rate settings")]
         [NUnit.Framework.CategoryAttribute("Priority(0)")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Selenium", "Ground", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Lights and Sirens", "6", "External", "7", "Flat", null)]
         public void _09_AddRateSettings(
+=======
+        [NUnit.Framework.DescriptionAttribute("Add Rate settings")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", "Ground", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Lights and Sirens", "6", "External", "7", "Flat", null)]
+        public void AddRateSettings(
+>>>>>>> b11255d53108dfc9e27b4988269fe5bec67c27c4
                     string email, 
                     string password, 
                     string searchKey, 
@@ -697,13 +712,7 @@ this.ScenarioInitialize(scenarioInfo);
                     string transportType7, 
                     string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "Priority(0)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -1333,17 +1342,10 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Generate Invoice and Add File")]
-        [NUnit.Framework.CategoryAttribute("Retry(5)")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "C:\\Users\\ASUS\\Pictures\\Screenshots\\Screenshot.png", null)]
         public void GenerateInvoiceAndAddFile(string email, string password, string filename, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "Retry(5)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
@@ -1407,17 +1409,10 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Generate Invoice and Delete File")]
-        [NUnit.Framework.CategoryAttribute("Retry(5)")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
         public void GenerateInvoiceAndDeleteFile(string email, string password, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "Retry(5)"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
