@@ -499,6 +499,22 @@ namespace TrinityAirMedical.StepDefinitions
         {
             createServiceRequestPage.SuccessMessageForLegAssignment();
         }
+        [Then(@"I choose to Save the service request number")]
+        public void ThenIChooseToSaveTheServiceRequestNumber()
+        {
+            createServiceRequestPage.SaveTheServiceRequestNumber();
+        }
+        [Then(@"I choose to complete the status of the all legs for create SR")]
+        public void ThenIChooseToCompleteTheStatusOfTheAllLegsForCreateSR()
+        {
+            createServiceRequestPage.CompleteTheStatusOfTheAllLegs();
+        }
+        [Then(@"I choose to verify the status for the SR")]
+        public void ThenIChooseToVerifyTheStatusForTheSR()
+        {
+            createServiceRequestPage.StatusForTheSR();
+        }
+
 
 
     }

@@ -221,8 +221,10 @@ namespace FinanceModule.Pages
         {
             WaitHelper.cExplicitWait(driver, demoCustomer, 20);
             driver.FindElement(demoCustomer).Click();
-            WaitHelper.CHighlightElement(driver, demoCustomer);
-            WaitHelper.cExplicitWait(driver,customerDetail,20);
+            //WaitHelper.CHighlightElement(driver, demoCustomer);
+            //WaitHelper.cExplicitWait(driver,customerDetail,20);
+            WaitHelper.cWaitForLoader(driver,60);
+            WaitHelper.cWaitForSpinner(driver, 60);
             bool flag = driver.FindElement(customerDetail).Displayed;
             Assert.IsTrue(flag, "Customer Detail page is not launched successfully");
         }
@@ -245,10 +247,10 @@ namespace FinanceModule.Pages
         }
         public void changeInvoiceSettings()
         {
-            driver.FindElement(checkbox).Click();
             WaitHelper.CHighlightElement(driver, checkbox);
-            driver.FindElement(saveBtn).Click();
+            driver.FindElement(checkbox).Click();
             WaitHelper.CHighlightElement(driver, saveBtn);
+            driver.FindElement(saveBtn).Click();
             WaitHelper.cWaitForLoader(driver, 20);
         }
         public void verifyInvoiceSetting()

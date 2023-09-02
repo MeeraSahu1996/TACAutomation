@@ -74,13 +74,42 @@ namespace TrinityAirMedical.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Create service request flow for Finance Module")]
+        [NUnit.Framework.DescriptionAttribute("01.Create service request flow for Finance Module")]
         [NUnit.Framework.CategoryAttribute("financeModule")]
-        [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", null)]
-        public void CreateServiceRequestFlowForFinanceModule(string email, string password, string[] exampleTags)
+        [NUnit.Framework.CategoryAttribute("retry(3)")]
+        [NUnit.Framework.TestCaseAttribute("TACExAdministratorTest@trinityairmedical.com", "YQAQ7&*fy!", "Test_Customer", "Anish Dasi", "Equipment", "Medical Equipment", "Immediate", "Yes", "6007748", "79898978", "7886089", "publicAddress", "Residential", "public", "publicAddress", "Aircraft", "NA", "Idaho Regional Medical Center", "St Lukes Boise", "service account", "Ground", "Outbound", "Public", "Public", "Idaho Falls Regional Airport", "Trinity", null)]
+        public void _01_CreateServiceRequestFlowForFinanceModule(
+                    string email, 
+                    string password, 
+                    string customer, 
+                    string contact, 
+                    string service, 
+                    string equipment, 
+                    string type, 
+                    string priority, 
+                    string unos, 
+                    string tissue, 
+                    string match, 
+                    string mode, 
+                    string addresstype, 
+                    string addressmode, 
+                    string destmode, 
+                    string category, 
+                    string instruction, 
+                    string origin, 
+                    string desti, 
+                    string coordinator, 
+                    string transport, 
+                    string direction, 
+                    string originAddType, 
+                    string destinationAddType, 
+                    string destiLeg1, 
+                    string destiLeg2, 
+                    string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "financeModule"};
+                    "financeModule",
+                    "retry(3)"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -89,8 +118,32 @@ namespace TrinityAirMedical.Features
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create service request flow for Finance Module", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 8
+            argumentsOfScenario.Add("customer", customer);
+            argumentsOfScenario.Add("contact", contact);
+            argumentsOfScenario.Add("service", service);
+            argumentsOfScenario.Add("equipment", equipment);
+            argumentsOfScenario.Add("type", type);
+            argumentsOfScenario.Add("priority", priority);
+            argumentsOfScenario.Add("unos", unos);
+            argumentsOfScenario.Add("tissue", tissue);
+            argumentsOfScenario.Add("match", match);
+            argumentsOfScenario.Add("mode", mode);
+            argumentsOfScenario.Add("addresstype", addresstype);
+            argumentsOfScenario.Add("addressmode", addressmode);
+            argumentsOfScenario.Add("destmode", destmode);
+            argumentsOfScenario.Add("category", category);
+            argumentsOfScenario.Add("instruction", instruction);
+            argumentsOfScenario.Add("Origin", origin);
+            argumentsOfScenario.Add("Desti", desti);
+            argumentsOfScenario.Add("coordinator", coordinator);
+            argumentsOfScenario.Add("Transport", transport);
+            argumentsOfScenario.Add("Direction", direction);
+            argumentsOfScenario.Add("OriginAddType", originAddType);
+            argumentsOfScenario.Add("DestinationAddType", destinationAddType);
+            argumentsOfScenario.Add("DestiLeg1", destiLeg1);
+            argumentsOfScenario.Add("DestiLeg2", destiLeg2);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01.Create service request flow for Finance Module", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -100,179 +153,162 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 9
+#line 8
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 9
+ testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 11
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 13
- testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 14
- testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 15
  testRunner.And("I choose to verify home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
+#line 15
+ testRunner.And("I choose to Click on Service Request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
 #line 16
- testRunner.And("I choose to Click on Service Request option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I choose to Click on Service Request button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 17
- testRunner.And("Service Request Page should open.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select customer details {0}", customer), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 18
- testRunner.And("I choose to Click on Create Service Request button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select contact details {0}", contact), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 19
- testRunner.And("I choose to Verify Create Service Request Page should open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select service type {0}", service), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
- testRunner.And("I choose to Fill the Customer Info Section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select equipment type {0}", equipment), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 21
- testRunner.And("Fill the Service Info Section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select pickup type {0}", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 22
- testRunner.And("Fill the Trip Info section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select priority type {0}", priority), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 23
- testRunner.And("Click on Save", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to enter unosid {0}", unos), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 24
- testRunner.Then("Assign Coordinator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And(string.Format("I choose to enter tissueid {0}", tissue), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 25
- testRunner.And("Check for Success of Assign Coordinator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to enter matchid {0}", match), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 26
- testRunner.And("Get the Trip ID No", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select trip origin transport mode {0}", mode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 27
- testRunner.And("Add The leg info for Outbound", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to Enter Origin loction {0}", origin), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 28
- testRunner.And("Add The leg info for Inbound", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select trip destinatio transport mode {0}", destmode), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 29
- testRunner.And("Assign the legs to internal Driver", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to Enter Desti loction {0}", desti), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 30
- testRunner.And("Go To Service Request page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to select category {0}", category), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 31
- testRunner.And("Fill the Trip id in Trip ID Filter for input SRq no", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to enter instruction {0}", instruction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 32
- testRunner.And("Apply the filter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I choose to save the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("login to the trinity medical solutions application")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
-        public void LoginToTheTrinityMedicalSolutionsApplication(string email, string password, string[] exampleTags)
-        {
-            string[] tagsOfScenario = exampleTags;
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("email", email);
-            argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login to the trinity medical solutions application", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 33
+ testRunner.Then("I choose to verify the transaction", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 34
+ testRunner.And(string.Format("I choose to Select Coordinator {0}", coordinator), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 35
+ testRunner.Then("I choose to verify the success message for Assign Coordinator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 36
+ testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 37
+ testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 38
+ testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
 #line 39
-this.ScenarioInitialize(scenarioInfo);
+ testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
 #line 40
- testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 41
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("I choose to Click on Add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 42
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 43
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I choose to Click on Add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 44
- testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to Select Transport Type {0}", transport), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 45
- testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("I choose to Select Direction {0}", direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 46
- testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And(string.Format("I choose to select Destination Address type{0}", destinationAddType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("login to the trinity medical solutions application with wrong creds")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinitymedical.com", "xoAL@pf", null)]
-        public void LoginToTheTrinityMedicalSolutionsApplicationWithWrongCreds(string email, string password, string[] exampleTags)
-        {
-            string[] tagsOfScenario = exampleTags;
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("email", email);
-            argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login to the trinity medical solutions application with wrong creds", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 47
+ testRunner.And(string.Format("I choose to Enter Desti location {0}", destiLeg2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 48
+ testRunner.And("I choose to Click on Add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 49
+ testRunner.Then("I choose to verify the transaction for add leg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 50
+ testRunner.Then("I choose to select the legs and Assign to Internal Driver", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
 #line 51
-this.ScenarioInitialize(scenarioInfo);
+ testRunner.Then("I choose to verify the success message for Leg Assignment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
 #line 52
- testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.And("I choose to Save the service request number", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 53
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("I choose to complete the status of the all legs for create SR", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 54
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 55
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 56
- testRunner.Then("I choose to verify the error login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I choose to verify the status for the SR", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("login to the trinity medical solutions application and launch manage customer tab" +
-            "")]
+        [NUnit.Framework.DescriptionAttribute("02.login to the trinity medical solutions application")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
-        public void LoginToTheTrinityMedicalSolutionsApplicationAndLaunchManageCustomerTab(string email, string password, string[] exampleTags)
+        public void _02_LoginToTheTrinityMedicalSolutionsApplication(string email, string password, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login to the trinity medical solutions application and launch manage customer tab" +
-                    "", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 61
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02.login to the trinity medical solutions application", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 63
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -282,49 +318,41 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 62
+#line 64
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 63
+#line 65
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 64
+#line 66
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 65
+#line 67
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 66
+#line 68
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 67
+#line 69
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 68
- testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 69
- testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
 #line 70
- testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("login and launch manage customer tab and verify total number of transactions pres" +
-            "ent on webpage")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
-        public void LoginAndLaunchManageCustomerTabAndVerifyTotalNumberOfTransactionsPresentOnWebpage(string email, string password, string[] exampleTags)
+        [NUnit.Framework.DescriptionAttribute("03.login to the trinity medical solutions application with wrong creds")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinitymedical.com", "xoAL@pf", null)]
+        public void _03_LoginToTheTrinityMedicalSolutionsApplicationWithWrongCreds(string email, string password, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login and launch manage customer tab and verify total number of transactions pres" +
-                    "ent on webpage", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03.login to the trinity medical solutions application with wrong creds", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 75
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -348,21 +376,115 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 80
+ testRunner.Then("I choose to verify the error login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("04.login to the trinity medical solutions application and launch manage customer " +
+            "tab")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
+        public void _04_LoginToTheTrinityMedicalSolutionsApplicationAndLaunchManageCustomerTab(string email, string password, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("email", email);
+            argumentsOfScenario.Add("password", password);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04.login to the trinity medical solutions application and launch manage customer " +
+                    "tab", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 85
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 86
+ testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 87
+ testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 88
+ testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 89
+ testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 90
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 81
+#line 91
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 82
+#line 92
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 83
+#line 93
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 84
+#line 94
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 85
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("05.login and launch manage customer tab and verify total number of transactions p" +
+            "resent on webpage")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
+        public void _05_LoginAndLaunchManageCustomerTabAndVerifyTotalNumberOfTransactionsPresentOnWebpage(string email, string password, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("email", email);
+            argumentsOfScenario.Add("password", password);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05.login and launch manage customer tab and verify total number of transactions p" +
+                    "resent on webpage", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 99
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 100
+ testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 101
+ testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 102
+ testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 103
+ testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 104
+ testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 105
+ testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 106
+ testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 107
+ testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 108
+ testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 109
  testRunner.Then("I choose to verify total number of transactions", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -370,130 +492,72 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("login and launch manage customer tab and search Demo Customer")]
+        [NUnit.Framework.DescriptionAttribute("06.login and launch manage customer tab and search Demo Customer")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", null)]
-        public void LoginAndLaunchManageCustomerTabAndSearchDemoCustomer(string email, string password, string searchKey, string[] exampleTags)
+        public void _06_LoginAndLaunchManageCustomerTabAndSearchDemoCustomer(string email, string password, string searchKey, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("searchKey", searchKey);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login and launch manage customer tab and search Demo Customer", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 90
- this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 91
- testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 92
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 93
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 94
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 95
- testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 96
- testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 97
- testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 98
- testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 99
- testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 100
- testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("login and launch manage customer tab and launch customer detail page")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", null)]
-        public void LoginAndLaunchManageCustomerTabAndLaunchCustomerDetailPage(string email, string password, string searchKey, string[] exampleTags)
-        {
-            string[] tagsOfScenario = exampleTags;
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("email", email);
-            argumentsOfScenario.Add("password", password);
-            argumentsOfScenario.Add("searchKey", searchKey);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login and launch manage customer tab and launch customer detail page", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 105
- this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 106
- testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 107
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 108
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 109
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 110
- testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 111
- testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 112
- testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 113
- testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06.login and launch manage customer tab and search Demo Customer", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 114
- testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ this.ScenarioInitialize(scenarioInfo);
 #line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
 #line 115
- testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 116
- testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 117
+ testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 118
+ testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 119
+ testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 120
+ testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 121
+ testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 122
+ testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 123
+ testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 124
+ testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Launch customer detail page and do invoice settings")]
+        [NUnit.Framework.DescriptionAttribute("07.login and launch manage customer tab and launch customer detail page")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", null)]
-        public void LaunchCustomerDetailPageAndDoInvoiceSettings(string email, string password, string searchKey, string[] exampleTags)
+        public void _07_LoginAndLaunchManageCustomerTabAndLaunchCustomerDetailPage(string email, string password, string searchKey, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("searchKey", searchKey);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Launch customer detail page and do invoice settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 121
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07.login and launch manage customer tab and launch customer detail page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 129
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -503,49 +567,107 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 122
+#line 130
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 123
+#line 131
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 124
+#line 132
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 125
+#line 133
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 126
+#line 134
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 127
+#line 135
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 128
+#line 136
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 129
+#line 137
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 130
+#line 138
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 131
+#line 139
  testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 132
+#line 140
  testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 133
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("08.Launch customer detail page and do invoice settings")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", null)]
+        public void _08_LaunchCustomerDetailPageAndDoInvoiceSettings(string email, string password, string searchKey, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("email", email);
+            argumentsOfScenario.Add("password", password);
+            argumentsOfScenario.Add("searchKey", searchKey);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("08.Launch customer detail page and do invoice settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 145
+ this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 146
+ testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 147
+ testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 148
+ testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 149
+ testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 150
+ testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 151
+ testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 152
+ testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 153
+ testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 154
+ testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 155
+ testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 156
+ testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 157
  testRunner.When("I choose to get NSCustomerID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 134
+#line 158
  testRunner.And("I choose to click on invoice settings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 135
+#line 159
  testRunner.And("I choose to change invoice settings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 136
+#line 160
  testRunner.Then("I choose to verify invoice settings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -553,10 +675,10 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add Rate settings")]
+        [NUnit.Framework.DescriptionAttribute("09.Add Rate settings")]
         [NUnit.Framework.CategoryAttribute("Priority(0)")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", "Ground", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Lights and Sirens", "6", "External", "7", "Flat", null)]
-        public void AddRateSettings(
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Selenium", "Ground", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Lights and Sirens", "6", "External", "7", "Flat", null)]
+        public void _09_AddRateSettings(
                     string email, 
                     string password, 
                     string searchKey, 
@@ -599,8 +721,8 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("transportType6", transportType6);
             argumentsOfScenario.Add("type7", type7);
             argumentsOfScenario.Add("transportType7", transportType7);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add Rate settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 142
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("09.Add Rate settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 166
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -610,85 +732,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 143
+#line 167
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 144
+#line 168
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 145
+#line 169
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 146
+#line 170
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 147
+#line 171
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 148
+#line 172
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 149
+#line 173
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 150
+#line 174
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 151
+#line 175
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 152
+#line 176
  testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 153
+#line 177
  testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 154
+#line 178
  testRunner.When("I choose to get NSCustomerID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 155
+#line 179
  testRunner.And("I choose to click on Add New Rate Setting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 156
+#line 180
  testRunner.And(string.Format("I choose to select type {0}", type1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 157
+#line 181
  testRunner.And(string.Format("I choose to select transport type {0}", transportType1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 158
+#line 182
  testRunner.And(string.Format("I choose to select type {0}", type2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 159
+#line 183
  testRunner.And(string.Format("I choose to select transport type {0}", transportType2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 160
+#line 184
  testRunner.And(string.Format("I choose to select type {0}", type4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 161
+#line 185
  testRunner.And(string.Format("I choose to select transport type {0}", transportType4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 162
+#line 186
  testRunner.And(string.Format("I choose to select type {0}", type5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 163
+#line 187
  testRunner.And(string.Format("I choose to select transport type {0}", transportType5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 164
+#line 188
  testRunner.And(string.Format("I choose to select type {0}", type6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 165
+#line 189
  testRunner.And(string.Format("I choose to select transport type {0}", transportType6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 166
+#line 190
  testRunner.And(string.Format("I choose to select type {0}", type7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 167
+#line 191
  testRunner.And(string.Format("I choose to select transport type {0}", transportType7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 168
+#line 192
  testRunner.And("I choose to save the record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 169
+#line 193
  testRunner.And("I choose to Verify saved record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -696,9 +818,9 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Edit Rate settings")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", "Auxiliary", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Air Ambulance", "6", "External", "7", "Flat", null)]
-        public void EditRateSettings(
+        [NUnit.Framework.DescriptionAttribute("10.Edit Rate settings")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Selenium", "Auxiliary", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Air Ambulance", "6", "External", "7", "Flat", null)]
+        public void _10_EditRateSettings(
                     string email, 
                     string password, 
                     string searchKey, 
@@ -735,8 +857,8 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("transportType6", transportType6);
             argumentsOfScenario.Add("type7", type7);
             argumentsOfScenario.Add("transportType7", transportType7);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Rate settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 175
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("10.Edit Rate settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 199
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -746,82 +868,82 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 176
+#line 200
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 177
+#line 201
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 178
+#line 202
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 179
+#line 203
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 180
+#line 204
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 181
+#line 205
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 182
+#line 206
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 183
+#line 207
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 184
+#line 208
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 185
+#line 209
  testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 186
+#line 210
  testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 187
+#line 211
  testRunner.When("I choose to get NSCustomerID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 188
+#line 212
  testRunner.And("I choose to click on edit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 189
+#line 213
  testRunner.And(string.Format("I choose to select type {0}", type1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 190
+#line 214
  testRunner.And(string.Format("I choose to select transport type {0}", transportType1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 191
+#line 215
  testRunner.And(string.Format("I choose to select type {0}", type2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 192
+#line 216
  testRunner.And(string.Format("I choose to select transport type {0}", transportType2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 193
+#line 217
  testRunner.And(string.Format("I choose to select type {0}", type4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 194
+#line 218
  testRunner.And(string.Format("I choose to select transport type {0}", transportType4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 195
+#line 219
  testRunner.And(string.Format("I choose to select type {0}", type5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 196
+#line 220
  testRunner.And(string.Format("I choose to select transport type {0}", transportType5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 197
+#line 221
  testRunner.And(string.Format("I choose to select type {0}", type6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 198
+#line 222
  testRunner.And(string.Format("I choose to select transport type {0}", transportType6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 199
+#line 223
  testRunner.And(string.Format("I choose to select type {0}", type7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 200
+#line 224
  testRunner.And(string.Format("I choose to select transport type {0}", transportType7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 201
+#line 225
  testRunner.And("I choose to save the record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -829,9 +951,9 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Delete Rate settings")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", "Auxiliary", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Air Ambulance", "6", "External", "7", "Flat", null)]
-        public void DeleteRateSettings(
+        [NUnit.Framework.DescriptionAttribute("11.Delete Rate settings")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Selenium", "Auxiliary", "1", "2", "Specimen", "2", "4", "Out of town", "5", "Air Ambulance", "6", "External", "7", "Flat", null)]
+        public void _11_DeleteRateSettings(
                     string email, 
                     string password, 
                     string searchKey, 
@@ -868,8 +990,8 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("transportType6", transportType6);
             argumentsOfScenario.Add("type7", type7);
             argumentsOfScenario.Add("transportType7", transportType7);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete Rate settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 206
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("11.Delete Rate settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 230
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -879,46 +1001,46 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 207
+#line 231
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 208
+#line 232
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 209
+#line 233
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 210
+#line 234
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 211
+#line 235
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 212
+#line 236
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 213
+#line 237
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 214
+#line 238
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 215
+#line 239
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 216
+#line 240
  testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 217
+#line 241
  testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 218
+#line 242
  testRunner.When("I choose to get NSCustomerID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 219
+#line 243
  testRunner.And("I choose to click on remove button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 220
+#line 244
  testRunner.And("I choose to verify remove request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -926,9 +1048,9 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Edit Rate settings of type2")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", "Ground", "1", "2", "Specimen", "2", "4", "In town", "5", "Air Ambulance", "6", "Internal", "7", "Flat", "Hours", "8", "10", "200", null)]
-        public void EditRateSettingsOfType2(
+        [NUnit.Framework.DescriptionAttribute("12.Edit Rate settings of type2")]
+        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Selenium2", "Ground", "1", "2", "Specimen", "2", "4", "In town", "5", "Air Ambulance", "6", "Internal", "7", "Flat", "Hours", "8", "10", "200", null)]
+        public void _12_EditRateSettingsOfType2(
                     string email, 
                     string password, 
                     string searchKey, 
@@ -973,8 +1095,8 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("type8", type8);
             argumentsOfScenario.Add("unitValue", unitValue);
             argumentsOfScenario.Add("rate", rate);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Rate settings of type2", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 225
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("12.Edit Rate settings of type2", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 249
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -984,88 +1106,88 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 226
+#line 250
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 227
+#line 251
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 228
+#line 252
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 229
+#line 253
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 230
+#line 254
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 231
+#line 255
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 232
+#line 256
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 233
+#line 257
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 234
+#line 258
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 235
+#line 259
  testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 236
+#line 260
  testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 237
+#line 261
  testRunner.When("I choose to get NSCustomerID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 238
+#line 262
  testRunner.And("I choose to click on edit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 239
+#line 263
  testRunner.And(string.Format("I choose to select type {0}", type1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 240
+#line 264
  testRunner.And(string.Format("I choose to select transport type {0}", transportType1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 241
+#line 265
  testRunner.And(string.Format("I choose to select type {0}", type2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 242
+#line 266
  testRunner.And(string.Format("I choose to select transport type {0}", transportType2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 243
+#line 267
  testRunner.And(string.Format("I choose to enter quantity {0}", qty), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 244
+#line 268
  testRunner.And(string.Format("I choose to select type {0}", type4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 245
+#line 269
  testRunner.And(string.Format("I choose to select transport type {0}", transportType4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 246
+#line 270
  testRunner.And(string.Format("I choose to select type {0}", type5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 247
+#line 271
  testRunner.And(string.Format("I choose to select transport type {0}", transportType5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 248
+#line 272
  testRunner.And(string.Format("I choose to select type {0}", type6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 249
+#line 273
  testRunner.And(string.Format("I choose to select transport type {0}", transportType6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 250
+#line 274
  testRunner.And(string.Format("I choose to select type {0}", type7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 251
+#line 275
  testRunner.And(string.Format("I choose to select transport type {0}", transportType7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 252
+#line 276
  testRunner.And(string.Format("I choose to enter rate {0}", rate), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 253
+#line 277
  testRunner.And("I choose to save the record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -1073,122 +1195,17 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("service request page validation")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
-        public void ServiceRequestPageValidation(string email, string password, string[] exampleTags)
-        {
-            string[] tagsOfScenario = exampleTags;
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("email", email);
-            argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("service request page validation", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 258
- this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 259
- testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 260
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 261
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 262
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 263
- testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 264
- testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 265
- testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 266
- testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 267
- testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Date filter entering")]
-        [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", null)]
-        public void DateFilterEntering(string email, string password, string[] exampleTags)
-        {
-            string[] tagsOfScenario = exampleTags;
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("email", email);
-            argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Date filter entering", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 272
- this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 273
- testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 274
- testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 275
- testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 276
- testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 277
- testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 278
- testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 279
- testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 280
- testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 281
- testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 282
- testRunner.When("I choose to select from date", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Verify Generate Invoice Page")]
+        [NUnit.Framework.DescriptionAttribute("13.Verify Generate Invoice Page")]
         [NUnit.Framework.TestCaseAttribute("TACAdministratorTest@trinityairmedical.com", "xoAL@pf9tM", "Demo Customer", null)]
-        public void VerifyGenerateInvoicePage(string email, string password, string searchKey, string[] exampleTags)
+        public void _13_VerifyGenerateInvoicePage(string email, string password, string searchKey, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("Search Key", searchKey);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Generate Invoice Page", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 287
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("13.Verify Generate Invoice Page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 311
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -1198,40 +1215,40 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 288
+#line 312
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 289
+#line 313
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 290
+#line 314
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 291
+#line 315
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 292
+#line 316
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 293
+#line 317
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 294
+#line 318
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 295
+#line 319
  testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 296
+#line 320
  testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 297
+#line 321
  testRunner.When("I choose to select from date", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 301
+#line 325
  testRunner.And("I choose to click on generate invoice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 302
+#line 326
  testRunner.Then("I choose to verify invoice page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -1252,7 +1269,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("vehicle", vehicle);
             argumentsOfScenario.Add("type", type);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Generate Invoice and edit all fields", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 307
+#line 331
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -1262,52 +1279,52 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 308
+#line 332
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 309
+#line 333
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 310
+#line 334
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 311
+#line 335
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 312
+#line 336
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 313
+#line 337
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 314
+#line 338
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 315
+#line 339
  testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 316
+#line 340
  testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 317
+#line 341
  testRunner.When("I choose to select from date", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 318
+#line 342
  testRunner.And("I choose to click on generate invoice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 319
+#line 343
  testRunner.Then("I choose to verify invoice page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 320
+#line 344
  testRunner.When(string.Format("I choose to edit unos {0}", text1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 321
+#line 345
  testRunner.And(string.Format("I choose to edit po {0}", text2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 322
+#line 346
  testRunner.And(string.Format("I choose to edit vehicle category{0}", vehicle), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 323
+#line 347
  testRunner.And(string.Format("I choose to edit provider{0}", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -1332,7 +1349,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("filename", filename);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Generate Invoice and Add File", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 330
+#line 354
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -1342,46 +1359,46 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 331
+#line 355
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 332
+#line 356
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 333
+#line 357
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 334
+#line 358
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 335
+#line 359
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 336
+#line 360
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 337
+#line 361
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 338
+#line 362
  testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 339
+#line 363
  testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 340
+#line 364
  testRunner.When("I choose to select from date", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 341
+#line 365
  testRunner.And("I choose to click on generate invoice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 342
+#line 366
  testRunner.Then("I choose to verify invoice page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 343
+#line 367
  testRunner.Then(string.Format("I choose to upload file {0}", filename), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 344
+#line 368
  testRunner.And("I choose to verify file uploaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -1405,7 +1422,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Generate Invoice and Delete File", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 350
+#line 374
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -1415,43 +1432,43 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 351
+#line 375
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 352
+#line 376
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 353
+#line 377
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 354
+#line 378
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 355
+#line 379
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 356
+#line 380
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 357
+#line 381
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 358
+#line 382
  testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 359
+#line 383
  testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 360
+#line 384
  testRunner.When("I choose to select from date", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 361
+#line 385
  testRunner.And("I choose to click on generate invoice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 362
+#line 386
  testRunner.Then("I choose to verify invoice page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 363
+#line 387
  testRunner.And("I choose to verify file deleted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -1472,7 +1489,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("vehicle", vehicle);
             argumentsOfScenario.Add("type", type);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Generate Invoice and Create Netsuite", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 368
+#line 392
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -1482,55 +1499,55 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 369
+#line 393
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 370
+#line 394
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 371
+#line 395
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 372
+#line 396
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 373
+#line 397
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 374
+#line 398
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 375
+#line 399
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 376
+#line 400
  testRunner.When("I choose to click on service request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 377
+#line 401
  testRunner.Then("I choose to verify service page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 378
+#line 402
  testRunner.When("I choose to select from date", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 379
+#line 403
  testRunner.And("I choose to click on generate invoice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 380
+#line 404
  testRunner.Then("I choose to verify invoice page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 381
+#line 405
  testRunner.When(string.Format("I choose to edit unos {0}", text1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 382
+#line 406
  testRunner.And(string.Format("I choose to edit po {0}", text2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 383
+#line 407
  testRunner.And(string.Format("I choose to edit vehicle category{0}", vehicle), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 384
+#line 408
  testRunner.And(string.Format("I choose to edit provider{0}", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 385
+#line 409
  testRunner.Then("I choose to click on create netsuite and verify saved successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -1578,7 +1595,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("type7", type7);
             argumentsOfScenario.Add("transportType7", transportType7);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Rates settings", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 390
+#line 414
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -1588,82 +1605,82 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 391
+#line 415
  testRunner.Given("launch the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 392
+#line 416
  testRunner.When(string.Format("I choose to enter the email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 393
+#line 417
  testRunner.And(string.Format("I choose to enter the password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 394
+#line 418
  testRunner.And("I choose to click on submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 395
+#line 419
  testRunner.And(string.Format("I choose to enter email {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 396
+#line 420
  testRunner.And(string.Format("I choose to enter password {0}", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 397
+#line 421
  testRunner.Then("I choose to verify the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 398
+#line 422
  testRunner.And("I choose to click on manage customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 399
+#line 423
  testRunner.Then("I choose to verify customer page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 400
+#line 424
  testRunner.When(string.Format("I choose to enter search {0}", searchKey), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 401
+#line 425
  testRunner.Then("I choose to click on demo customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 402
+#line 426
  testRunner.When("I choose to get NSCustomerID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 403
+#line 427
  testRunner.And("I choose to click on edit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 404
+#line 428
  testRunner.And(string.Format("I choose to select type {0}", type1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 405
+#line 429
  testRunner.And(string.Format("I choose to select transport type {0}", transportType1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 406
+#line 430
  testRunner.And(string.Format("I choose to select type {0}", type2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 407
+#line 431
  testRunner.And(string.Format("I choose to select transport type {0}", transportType2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 408
+#line 432
  testRunner.And(string.Format("I choose to select type {0}", type4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 409
+#line 433
  testRunner.And(string.Format("I choose to select transport type {0}", transportType4), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 410
+#line 434
  testRunner.And(string.Format("I choose to select type {0}", type5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 411
+#line 435
  testRunner.And(string.Format("I choose to select transport type {0}", transportType5), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 412
+#line 436
  testRunner.And(string.Format("I choose to select type {0}", type6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 413
+#line 437
  testRunner.And(string.Format("I choose to select transport type {0}", transportType6), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 414
+#line 438
  testRunner.And(string.Format("I choose to select type {0}", type7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 415
+#line 439
  testRunner.And(string.Format("I choose to select transport type {0}", transportType7), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 416
+#line 440
  testRunner.And("I choose to save the record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

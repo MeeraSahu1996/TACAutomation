@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jOCHfrbHiqZGlXjkK3Cjg7hAyrXPTV+V7NWb3bPdqv8u91Fj0gkf0qRudK85MJPq7RHZg1sCwj4HBgvXEsb2pg==",
+  "dgSpecHash": "S8ez8vJuxEZr0nLhEUN8VdHE9lYqHTf2Q88MJc72Emjw8zFQ/GFQPU0ff4tVZfuS5T7pibYjKTc4cGcDx1VO1w==",
   "success": true,
-  "projectFilePath": "D:\\Code merge\\TAC-Git\\TAC\\FinanceModule\\TrinityAirMedical.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\AutomationFrame\\FinanceModule\\TrinityAirMedical.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",

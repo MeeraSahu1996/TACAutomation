@@ -84,7 +84,7 @@ namespace FinanceModule.Hooks
             var driver = _container.Resolve<IWebDriver>();
             if (driver != null)
             {
-                driver.Quit();
+                //driver.Quit();
             }
         }
 

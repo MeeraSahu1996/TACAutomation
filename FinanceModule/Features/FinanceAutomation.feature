@@ -3,40 +3,64 @@
 Login to the trinity medical solutions application and do tests
 
 @financeModule
-
-
-Scenario Outline: Create service request flow for Finance Module
-	Given launch the application
+@retry(3)
+Scenario Outline: 01.Create service request flow for Finance Module
+	Given launch the application 
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
 	And I choose to click on submit button
 	And I choose to enter email <email>
 	And I choose to enter password <password>
 	And I choose to verify home page
-	And I choose to Click on Service Request option
-	And Service Request Page should open.	
-	And I choose to Click on Create Service Request button 
-	And I choose to Verify Create Service Request Page should open
-	And I choose to Fill the Customer Info Section
-	And Fill the Service Info Section 
-	And Fill the Trip Info section 
-	And Click on Save 
-	Then Assign Coordinator
-	And Check for Success of Assign Coordinator
-	And Get the Trip ID No
-	And Add The leg info for Outbound
-	And Add The leg info for Inbound
-	And Assign the legs to internal Driver
-	And Go To Service Request page
-	And Fill the Trip id in Trip ID Filter for input SRq no
-	And Apply the filter
+	And I choose to Click on Service Request
+	And I choose to Click on Service Request button
+	And I choose to select customer details <customer>
+	And I choose to select contact details <contact>
+	And I choose to select service type <service>
+	And I choose to select equipment type <equipment>
+	And I choose to select pickup type <type>
+	And I choose to select priority type <priority>
+	And I choose to enter unosid <unos>
+	And I choose to enter tissueid <tissue>
+	And I choose to enter matchid <match>
+	And I choose to select trip origin transport mode <mode>
+	And I choose to Enter Origin loction <Origin>
+	And I choose to select trip destinatio transport mode <destmode>
+	And I choose to Enter Desti loction <Desti>
+	And I choose to select category <category>
+	And I choose to enter instruction <instruction>
+	And I choose to save the transaction
+	Then I choose to verify the transaction
+	And I choose to Select Coordinator <coordinator>
+	Then I choose to verify the success message for Assign Coordinator 
+	And I choose to Click on Add leg 
+	And I choose to Select Transport Type <Transport>
+	And I choose to Select Direction <Direction>
+	And I choose to select Destination Address type<DestinationAddType>
+	And I choose to Enter Desti location <DestiLeg1>
+	And I choose to Click on Add button
+	Then I choose to verify the transaction for add leg
+	And I choose to Click on Add leg 
+	And I choose to Select Transport Type <Transport>
+	And I choose to Select Direction <Direction>
+	And I choose to select Destination Address type<DestinationAddType>
+	And I choose to Enter Desti location <DestiLeg2>
+	And I choose to Click on Add button
+	Then I choose to verify the transaction for add leg
+	Then I choose to select the legs and Assign to Internal Driver
+	Then I choose to verify the success message for Leg Assignment 
+	And I choose to Save the service request number 
+	And I choose to complete the status of the all legs for create SR
+	Then I choose to verify the status for the SR 
 
-	Examples: 
-	| email											| password   |
-	| TACExAdministratorTest@trinityairmedical.com  | YQAQ7&*fy! |
 
 
-Scenario Outline: login to the trinity medical solutions application
+Examples: 
+	| email                                        | password   | customer      | contact    | service   | equipment         | type      | priority | unos    | tissue   | match   | mode          | addresstype | addressmode | destmode      | category | instruction | Origin                        | Desti          | coordinator     | Transport | Direction | OriginAddType | DestinationAddType | DestiLeg1                    | DestiLeg2 |
+	| TACExAdministratorTest@trinityairmedical.com | YQAQ7&*fy! | Test_Customer | Anish Dasi | Equipment | Medical Equipment | Immediate | Yes      | 6007748 | 79898978 | 7886089 | publicAddress | Residential | public      | publicAddress | Aircraft | NA          | Idaho Regional Medical Center | St Lukes Boise | service account | Ground    | Outbound  | Public        | Public             | Idaho Falls Regional Airport | Trinity   |
+
+
+Scenario Outline: 02.login to the trinity medical solutions application
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -48,7 +72,7 @@ Scenario Outline: login to the trinity medical solutions application
 	| email                                      | password   |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
 	
-Scenario Outline: login to the trinity medical solutions application with wrong creds
+Scenario Outline: 03.login to the trinity medical solutions application with wrong creds
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -58,7 +82,7 @@ Scenario Outline: login to the trinity medical solutions application with wrong 
 	| email                                   | password|
 	| TACAdministratorTest@trinitymedical.com | xoAL@pf |
 
-Scenario Outline: login to the trinity medical solutions application and launch manage customer tab
+Scenario Outline: 04.login to the trinity medical solutions application and launch manage customer tab
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -72,7 +96,7 @@ Scenario Outline: login to the trinity medical solutions application and launch 
 	| email                                      | password   |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
 
-Scenario Outline: login and launch manage customer tab and verify total number of transactions present on webpage
+Scenario Outline: 05.login and launch manage customer tab and verify total number of transactions present on webpage
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -87,7 +111,7 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	| email                                      | password   |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
 
-	Scenario Outline: login and launch manage customer tab and search Demo Customer
+	Scenario Outline: 06.login and launch manage customer tab and search Demo Customer
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -102,7 +126,7 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	| email                                      | password   | searchKey     |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer |
 
-	Scenario Outline: login and launch manage customer tab and launch customer detail page
+	Scenario Outline: 07.login and launch manage customer tab and launch customer detail page
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -118,7 +142,7 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	| email                                      | password   | searchKey     |
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer |
 
-	Scenario Outline: Launch customer detail page and do invoice settings
+	Scenario Outline: 08.Launch customer detail page and do invoice settings
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -139,7 +163,7 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer |
 
 	@Priority(0)
-	Scenario Outline: Add Rate settings
+	Scenario Outline: 09.Add Rate settings
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -168,11 +192,11 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	And I choose to save the record
 	And I choose to Verify saved record
 	Examples: 
-	| email                                      | password   | searchKey     | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 |
-	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer |  Ground        | 1     | 2     |  Specimen      | 2   | 4     | Out of town    | 5     | Lights and Sirens  | 6     | External       | 7     | Flat           |
+	| email                                      | password   | searchKey | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5    | type6 | transportType6 | type7 | transportType7 |
+	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Selenium  | Ground         | 1     | 2     | Specimen       | 2   | 4     | Out of town    | 5     | Lights and Sirens | 6     | External       | 7     | Flat           |
 
 
-	Scenario Outline: Edit Rate settings
+	Scenario Outline: 10.Edit Rate settings
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -200,10 +224,10 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	And I choose to select transport type <transportType7>
 	And I choose to save the record
 	Examples: 
-	| email                                      | password   | searchKey     | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 |
-	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer | Auxiliary      | 1     | 2     | Specimen       | 2   | 4     | Out of town    | 5     | Air Ambulance  | 6     | External       | 7     | Flat           |
+	| email                                      | password   | searchKey | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 |
+	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Selenium  | Auxiliary      | 1     | 2     | Specimen       | 2   | 4     | Out of town    | 5     | Air Ambulance  | 6     | External       | 7     | Flat           |
 
-	Scenario Outline: Delete Rate settings
+	Scenario Outline: 11.Delete Rate settings
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -219,10 +243,10 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	And I choose to click on remove button
 	And I choose to verify remove request
 	Examples: 
-	| email                                      | password   | searchKey     | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 |
-	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer | Auxiliary      | 1     | 2     | Specimen       | 2   | 4     | Out of town    | 5     | Air Ambulance  | 6     | External       | 7     | Flat           |
+	| email                                      | password   | searchKey | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 |
+	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Selenium  | Auxiliary      | 1     | 2     | Specimen       | 2   | 4     | Out of town    | 5     | Air Ambulance  | 6     | External       | 7     | Flat           |
 
-	Scenario Outline: Edit Rate settings of type2
+	Scenario Outline: 12.Edit Rate settings of type2
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>
@@ -252,39 +276,39 @@ Scenario Outline: login and launch manage customer tab and verify total number o
 	And I choose to enter rate <rate>
 	And I choose to save the record
 	Examples: 
-	| email                                      | password   | searchKey     | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 | transportType8 | type8 | unitValue | rate |
-	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Demo Customer | Ground         | 1     | 2     | Specimen       | 2   | 4     | In town        | 5     |  Air Ambulance | 6     | Internal       | 7     | Flat           | Hours          | 8     | 10        | 200  |
+	| email                                      | password   | searchKey | transportType1 | type1 | type2 | transportType2 | qty | type4 | transportType4 | type5 | transportType5 | type6 | transportType6 | type7 | transportType7 | transportType8 | type8 | unitValue | rate |
+	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM | Selenium2   | Ground         | 1     | 2     | Specimen       | 2   | 4     | In town        | 5     | Air Ambulance  | 6     | Internal       | 7     | Flat           | Hours          | 8     | 10        | 200  |
 
-	Scenario Outline: service request page validation
-	Given launch the application
-	When I choose to enter the email <email>
-	And I choose to enter the password <password>
-	And I choose to click on submit button
-	And I choose to enter email <email>
-	And I choose to enter password <password>
-	Then I choose to verify the login page
-	When I choose to click on service request
-	Then I choose to verify service page
-	Examples:
-	| email                                      | password   |
-	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
+	#Scenario Outline: 13.service request page validation
+	#Given launch the application
+	#When I choose to enter the email <email>
+	#And I choose to enter the password <password>
+	#And I choose to click on submit button
+	#And I choose to enter email <email>
+	#And I choose to enter password <password>
+	#Then I choose to verify the login page
+	#When I choose to click on service request
+	#Then I choose to verify service page
+	#Examples:
+	#| email                                      | password   |
+	#| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
 
-	Scenario Outline: Date filter entering
-	Given launch the application
-	When I choose to enter the email <email>
-	And I choose to enter the password <password>
-	And I choose to click on submit button
-	And I choose to enter email <email>
-	And I choose to enter password <password>
-	Then I choose to verify the login page
-	When I choose to click on service request
-	Then I choose to verify service page
-	When I choose to select from date
-	Examples:
-	| email                                      | password   |
-	| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
+	#Scenario Outline: 14.Date filter entering
+	#Given launch the application
+	#When I choose to enter the email <email>
+	#And I choose to enter the password <password>
+	#And I choose to click on submit button
+	#And I choose to enter email <email>
+	#And I choose to enter password <password>
+	#Then I choose to verify the login page
+	#When I choose to click on service request
+	#Then I choose to verify service page
+	#When I choose to select from date
+	#Examples:
+	#| email                                      | password   |
+	#| TACAdministratorTest@trinityairmedical.com | xoAL@pf9tM |
 
-	Scenario Outline: Verify Generate Invoice Page
+	Scenario Outline: 13.Verify Generate Invoice Page
 	Given launch the application
 	When I choose to enter the email <email>
 	And I choose to enter the password <password>

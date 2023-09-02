@@ -1,5 +1,8 @@
 ﻿using AventStack.ExtentReports.Gherkin.Model;
+using Dynamitey;
 using FinanceModule.Utility;
+using Gherkin.CucumberMessages.Types;
+using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 using OfficeOpenXml.Packaging.Ionic.Zlib;
@@ -11,6 +14,8 @@ using SharpCompress.Compressors.Xz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow.Assist;
@@ -25,6 +30,8 @@ namespace TrinityAirMedical.Pages
         {
             this.driver = driver;
         }
+        public static string newTripID;
+
         By wserviceRequest = By.XPath("//span[text()='Service Request']");
         By wVerifyServiceRequest = By.XPath("//strong[text()='Service Request']");
         By wVerifyServiceRequests = By.XPath("//strong[contains(text(),'Service Requests')]");
@@ -124,15 +131,20 @@ namespace TrinityAirMedical.Pages
         By SendAssignReqB = By.XPath("//button[@title='Send Assignment request']");
         By wInternal = By.XPath("//input[@value = 'TAM Internal']");
         By wExternal = By.XPath("//input[@value = 'External']");
-
-        
         By wVehicleOption = By.XPath("//option[contains(text(),'test (Lights and Sirens)')]");
         By wVendorVehicleOption = By.XPath("//option[contains(text(),'Test Vehicle (Regular)')]");
-
         By wAssignLeg = By.XPath("//descendant::button[text()='Assign'][2]");
-
         By length =  By.XPath("//div[@class='row_container']//descendant::input[@type='checkbox']");
-        
+        By wCreatedTripID = By.XPath("//label[contains(text(),'Service Request No:')]/following-sibling::div/span");
+        By wTripIDFilter = By.XPath("//label[contains(text(),'Trip ID')]/following-sibling::div");
+        By wSearch = By.XPath("//label[contains(text(),'Trip ID')]/following-sibling::div/descendant::input[2]");
+        By wSearchResult = By.XPath("//descendant::div[@class='dropdown-list'][4]/ul[@class='item2']/li");
+        By wClearDate = By.XPath("//label[contains(text(),'From Date')]/following-sibling::button");
+        By wApply = By.XPath("//button[contains(text(),'Apply')][1]");
+        By wExpand = By.XPath("//b[contains(text(),'Expand All')]");
+        By wStatusDD0 = By.XPath("//select[@id='selectedValue0']");
+        By wStatusDD1 = By.XPath("//select[@id='selectedValue1']");
+        By wStatusColumn = By.XPath("//td/div[@id='main_row_id']/div[7]/div[2]/div/span");
         public static String fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "apple.pdf");
        
         public void clickServiceRequest()
@@ -201,6 +213,7 @@ namespace TrinityAirMedical.Pages
         }
         public void selectContactDetails(String contact)
         {
+            WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, selectContact, 30);
             driver.FindElement(selectContact).Click();
             WaitHelper.CHighlightElement(driver, selectContact);
             driver.FindElement(searchText).SendKeys(contact);
@@ -867,13 +880,13 @@ namespace TrinityAirMedical.Pages
             try
             {
                 //IList<IWebElement> wLegs = driver.FindElements(wLegCheckInputs);
-                
+
                 //for (int i = 1; i < 3; i++)
                 //{
                 //    //WaitHelper.CHighlightElement(driver, wLegCheckInputs);
                 //    wLegs[i].Click();
                 //}
-
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, LegAssignB, 10);
                 driver.FindElement(LegAssignB).Click();
                 WaitHelper.cWaitForLoader(driver, 60);
                 WaitHelper.cWaitForSpinner(driver, 50);
@@ -885,10 +898,13 @@ namespace TrinityAirMedical.Pages
                 driver.FindElement(wSearchField).SendKeys("Manikant");
                 WaitHelper.cExplicitWaitForElementIsVisible(driver, wFirstSearch, 120);
                 driver.FindElement(wFirstSearch).Click();
+
+                WaitHelper.cWaitForSpinner(driver, 50);
                 WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wSelectVehicle, 120);
                 driver.FindElement(wSelectVehicle).Click();
                 WaitHelper.cExplicitWaitForElementIsVisible(driver, wVehicleOption, 120);
                 driver.FindElement(wVehicleOption).Click();
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wAssignLeg, 120);
                 WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wAssignLeg, 120);
                 driver.FindElement(wAssignLeg).Click();
 
@@ -986,15 +1002,146 @@ namespace TrinityAirMedical.Pages
 
         public void SuccessMessageForLegAssignment()
         {
-            
+            //WaitHelper.cWaitForLoader(driver,60);
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
-                wait.Until(ExpectedConditions.PresenceOfAllElementsLocatedBy(xToast));
+                wait.Until(ExpectedConditions.ElementIsVisible(xToast));
                 bool flag = driver.FindElement(xToast).Text.Contains("Success");
                 Assert.IsTrue(flag, "Success toastTitle is not displayed");
-            WaitHelper.cWaitForLoader(driver, 30);
         }
+        public void SaveTheServiceRequestNumber()
+        {
+            WaitHelper.cWaitForLoader(driver, 30);
+            newTripID =  driver.FindElement(wCreatedTripID).Text.Trim();
+            Console.WriteLine(newTripID);
+        }
+        public void CompleteTheStatusOfTheAllLegs()
+        {
+            WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wserviceRequest, 20);
+            driver.FindElement(wserviceRequest).Click();
+            WaitHelper.cWaitForLoader(driver, 60);
+            driver.FindElement(wTripIDFilter).Click();
+            driver.FindElement(wSearch).SendKeys(newTripID);
+            Thread.Sleep(2000);
+            driver.FindElement(wSearchResult).Click();
+            driver.FindElement(wClearDate).Click();
+            driver.FindElement(wApply).Click();
+            WaitHelper.cWaitForLoader(driver, 60);
+            driver.FindElement(wExpand).Click();
 
+            try
+            {
+                
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Enroute");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "On-Scene");
+                driver.SwitchTo().Alert().Accept(); //need to remove after fix
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Picked up");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Dropped Off");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Driver Done");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Job Done");
+                Thread.Sleep(10000);
 
+            }
+            catch (Exception ex)
+            {
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Picked up");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Dropped Off");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Driver Done");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD0, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD0, "Job Done");
+            }
+            try
+            {
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD1, "Enroute");
+                driver.SwitchTo().Alert().Accept();
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD1, "On-Scene");
+                driver.SwitchTo().Alert().Accept();
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD1, "Picked up");
+                //driver.SwitchTo().Alert().Accept(); //need to remove after fix
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD1, "Dropped Off");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD1, "Driver Done");
+                Thread.Sleep(10000);
+                WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                WaitHelper.selectDDLByValue(driver, wStatusDD1, "Job Done");
+                Thread.Sleep(10000);
+            }
+            catch (Exception ex)
+            {
+                try {
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "On-Scene");
+                    driver.SwitchTo().Alert().Accept();
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Picked up");
+                    //driver.SwitchTo().Alert().Accept(); //need to remove after fix
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Dropped Off");
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Driver Done");
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Job Done");
+                    Thread.Sleep(7000);
+                }
+                catch (Exception e)
+                {
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Picked up");
+                    //driver.SwitchTo().Alert().Accept(); //need to remove after fix
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Dropped Off");
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Driver Done");
+                    Thread.Sleep(7000);
+                    WaitHelper.cExplicitlyWaitForElementToBeClickable(driver, wStatusDD1, 30);
+                    WaitHelper.selectDDLByValue(driver, wStatusDD1, "Job Done");
+                    Thread.Sleep(7000);
+                }
+            }
+        
+
+        }
+        public void StatusForTheSR()
+        {
+            
+            Thread.Sleep(5000);
+            bool flag = driver.FindElement(wStatusColumn).Text.Contains("Completed");
+            Assert.IsTrue(flag, "SR is not completed yet");
+        }
+        
 
     }
 }
